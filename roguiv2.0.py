@@ -8,7 +8,7 @@ import time
 class AutoClicker:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("RoGui Autoclicker")
+        self.root.title("RoGui Autoclicker  MADE BY suiyang12 (steve)")
 
         self.mouse = Controller()
         self.clicking = False
