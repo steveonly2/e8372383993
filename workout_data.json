@@ -1,15 +1,43 @@
 {
-  "workouts": {
-    "push": [
-      {"name": "Push-up", "duration": 30, "instructions": "Keep your body straight and lower your body until your chest nearly touches the floor."},
-      {"name": "Bench Press", "duration": 45, "instructions": "Lie on the bench with a barbell and push it up until your arms are straight, then lower it back to your chest."},
-      {"name": "Overhead Press", "duration": 30, "instructions": "Stand with a barbell at shoulder height and press it overhead until your arms are straight."}
-    ],
-    "pull": [
-      {"name": "Pull-up", "duration": 30, "instructions": "Hang from a bar with your hands shoulder-width apart and pull yourself up until your chin is above the bar."},
-      {"name": "Bent Over Row", "duration": 45, "instructions": "Bend at the waist with a barbell and pull it to your lower chest."},
-      {"name": "Deadlift", "duration": 60, "instructions": "Lift a barbell from the floor to hip height, keeping your back straight and core engaged."}
-    ]
+  "exercises": {
+    "push": {
+      "Steve": [
+        {"name": "Push-up", "sets": 2, "reps": 15},
+        {"name": "Tiger Bend Push-up", "sets": 2, "reps": 15},
+        {"name": "Wide Arm Push-up", "sets": 2, "reps": 15},
+        {"name": "Dumbbell Curls", "sets": 1, "reps": 20},
+        {"name": "In and Out Push-up", "sets": 2, "reps": 15}
+      ],
+      "under_16": [
+        {"name": "Push-up", "sets": 2, "reps": 10},
+        {"name": "Knee Push-up", "sets": 2, "reps": 12},
+        {"name": "Wide Arm Push-up", "sets": 2, "reps": 10},
+        {"name": "Tricep Dips", "sets": 2, "reps": 12}
+      ],
+      "above_18": [
+        {"name": "Push-up", "sets": 3, "reps": 15},
+        {"name": "Incline Push-up", "sets": 3, "reps": 15},
+        {"name": "Decline Push-up", "sets": 3, "reps": 12},
+        {"name": "Dumbbell Press", "sets": 3, "reps": 12}
+      ]
+    },
+    "pull": {
+      "Steve": [
+        {"name": "Hang from Pull-up Bar", "sets": 2, "duration": 30},
+        {"name": "Bodyweight Rows", "sets": 2, "reps": 15},
+        {"name": "Reverse Fly", "sets": 2, "reps": 12}
+      ],
+      "under_16": [
+        {"name": "Hang from Pull-up Bar", "sets": 2, "duration": 20},
+        {"name": "Bodyweight Rows", "sets": 2, "reps": 10},
+        {"name": "Reverse Fly", "sets": 2, "reps": 10}
+      ],
+      "above_18": [
+        {"name": "Pull-up", "sets": 3, "reps": 10},
+        {"name": "Chin-up", "sets": 3, "reps": 10},
+        {"name": "Inverted Row", "sets": 3, "reps": 12}
+      ]
+    }
   },
   "dietary_recommendations": {
     "pre_workout": "Consume a mix of protein and carbohydrates 30 minutes to an hour before your workout. Examples: a banana with peanut butter, yogurt with berries, or a protein shake.",
