@@ -103,7 +103,7 @@ class AutoPingerApp:
 
     def show_guide(self, event=None):
         guide_message = (
-            "Welcome to AutoPinger!\n\n"
+            "Welcome to AutoPinger! MADE BY suiyang12 \n\n"
             "Please follow these steps:\n"
             "1. Enter the Webhook URL.\n"
             "2. Optionally, enter User IDs to ping specific users (comma separated).\n"
