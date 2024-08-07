@@ -1,0 +1,18 @@
+{
+  "workouts": {
+    "push": [
+      {"name": "Push-up", "duration": 30, "instructions": "Keep your body straight and lower your body until your chest nearly touches the floor."},
+      {"name": "Bench Press", "duration": 45, "instructions": "Lie on the bench with a barbell and push it up until your arms are straight, then lower it back to your chest."},
+      {"name": "Overhead Press", "duration": 30, "instructions": "Stand with a barbell at shoulder height and press it overhead until your arms are straight."}
+    ],
+    "pull": [
+      {"name": "Pull-up", "duration": 30, "instructions": "Hang from a bar with your hands shoulder-width apart and pull yourself up until your chin is above the bar."},
+      {"name": "Bent Over Row", "duration": 45, "instructions": "Bend at the waist with a barbell and pull it to your lower chest."},
+      {"name": "Deadlift", "duration": 60, "instructions": "Lift a barbell from the floor to hip height, keeping your back straight and core engaged."}
+    ]
+  },
+  "dietary_recommendations": {
+    "pre_workout": "Consume a mix of protein and carbohydrates 30 minutes to an hour before your workout. Examples: a banana with peanut butter, yogurt with berries, or a protein shake.",
+    "post_workout": "Have a meal with protein and carbohydrates within 2 hours after your workout. Examples: grilled chicken with quinoa, a smoothie with protein powder, or a turkey sandwich on whole-grain bread."
+  }
+}
